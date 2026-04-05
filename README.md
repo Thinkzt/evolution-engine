@@ -163,11 +163,22 @@ evolution-engine/
 |------|-------|---------|---------|
 | **MiniMax-AI/skills** | 9234⭐ | ✅ 已融合 | 14个专业Skills (docx/xlsx/pdf/pptx) |
 | **paperclip-ui/paperclip** | 122⭐ | ✅ 已融合 | Rust可视化UI构建器 |
+| **LeoYeAI/openclaw-backup** | 664⭐ | ✅ 已融合 | 一键备份/云同步/恢复 |
 | **excalidraw** | 70000+⭐ | ⏳ 待融合 | 手绘风格图表 |
 
-### Paperclip融合心得
+### OpenClaw备份融合心得
 
-Paperclip核心理念（与璇玑史哲学高度契合）：
+LeoYeAI/openclaw-backup核心理念：
+
+```
+备份范围  →  workspace/credentials/agents/cron全量
+云存储    →  R2/B2/Gist多后端
+版本管理  →  自动保留最近7个
+安全      →  chmod 600加密
+恢复      →  dry-run预览 + 自动覆盖
+```
+
+### Paperclip融合心得
 
 ```
 无运行时   →  编译时生成，零依赖
