@@ -153,6 +153,43 @@ evolution-engine/
 
 ---
 
+## 技能融合记录
+
+### 璇玑史技能融合计划
+
+从以下顶级开源项目学习并融合：
+
+| 项目 | Stars | 融合状态 | 核心收获 |
+|------|-------|---------|---------|
+| **MiniMax-AI/skills** | 9234⭐ | ✅ 已融合 | 14个专业Skills (docx/xlsx/pdf/pptx) |
+| **paperclip-ui/paperclip** | 122⭐ | ✅ 已融合 | Rust可视化UI构建器 |
+| **excalidraw** | 70000+⭐ | ⏳ 待融合 | 手绘风格图表 |
+
+### Paperclip融合心得
+
+Paperclip核心理念（与璇玑史哲学高度契合）：
+
+```
+无运行时   →  编译时生成，零依赖
+纯文本格式 →  版本可控，设计资产持久化  
+设计Token  →  Design System标准化
+多框架输出 →  React/CSS/Vue全适配
+Rust实现   →  高性能构建
+```
+
+### MiniMax Skills学习成果
+
+已成功下载并解析：
+- ✅ minimax-docx (Word文档处理完整方案)
+- ✅ minimax-pdf (PDF处理Pipeline)
+
+待融合：
+- ⏳ minimax-xlsx (Excel)
+- ⏳ pptx-generator (PPT)
+- ⏳ vision-analysis (视觉)
+
+---
+
 ## 致敬
 
 本项目借鉴并超越了以下开源项目：
@@ -161,6 +198,8 @@ evolution-engine/
 - **Slime** - RL基础框架  
 - **GRPO** - 组相对策略优化
 - **PPO** - 近端策略优化
+- **MiniMax-AI/skills** - 专业AI技能库
+- **paperclip-ui** - 可视化UI构建器
 
 ---
 
